@@ -1,0 +1,139 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #444;
+}
+
+section {
+  padding: 2rem;
+  margin: 2rem 0;
+  background-color: #f7f7f7;
+  border-radius: 0.25rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul li {
+  width: calc(33.333% - 1rem);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+ul li img {
+  width: 100%;
+  height: auto;
+}
+
+ul li p {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  font-weight: bold;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+form button[type="submit"] {
+  background-color: #444;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #222;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  ul li {
+    width: calc(50% - 1rem);
+  }
+}
