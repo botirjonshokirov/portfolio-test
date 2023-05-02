@@ -10,27 +10,195 @@
   </head>
   <body>
     <header>
-      <h1>Botirjon Shokirov</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="header-wrapper">
+        <h1 class="header-title">Botirjon Shokirov</h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="#about" class="header-nav-link">About</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#portfolio" class="header-nav-link">Portfolio</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#languages" class="header-nav-link">Languages</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#education" class="header-nav-link">Education</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#hobby" class="header-nav-link">Hobby</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#projects" class="header-nav-link">Projects</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#interests" class="header-nav-link">Interests</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#contact" class="header-nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-image">
+          <img src="images/profile-pic.jpg" alt="Botirjon Shokirov" />
+        </div>
+      </div>
     </header>
 
     <section id="about">
       <h2>About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis
-        sapien vel erat sodales, eu faucibus nisi consectetur. Nulla sed felis
-        eget enim efficitur fermentum.
-      </p>
+      <div class="about-grid">
+        <div class="about-item">
+          <div class="about-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="about-text">
+            <h3>Web Development</h3>
+            <p>
+              I am proficient in HTML, CSS, JavaScript, and React, and have
+              experience building websites and web applications.
+            </p>
+          </div>
+        </div>
+        <div class="about-item">
+          <div class="about-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <div class="about-text">
+            <h3>UI/UX Design</h3>
+            <p>
+              I have a strong eye for design and am experienced in creating
+              wireframes, mockups, and prototypes.
+            </p>
+          </div>
+        </div>
+        <div class="about-item">
+          <div class="about-icon">
+            <i class="fas fa-project-diagram"></i>
+          </div>
+          <div class="about-text">
+            <h3>Project Management</h3>
+            <p>
+              I have experience leading projects and managing teams, and am
+              familiar with agile development methodologies.
+            </p>
+          </div>
+        </div>
+        <div class="about-item">
+          <div class="about-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <div class="about-text">
+            <h3>Fast Learner</h3>
+            <p>
+              I am a quick learner and am always eager to acquire new skills and
+              knowledge.
+            </p>
+          </div>
+        </div>
+        <div class="about-item">
+          <div class="about-icon">
+            <i class="fas fa-comments"></i>
+          </div>
+          <div class="about-text">
+            <h3>Communication</h3>
+            <p>
+              I am an effective communicator and work well with others, both
+              in-person and remotely.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="portfolio">
-      <h2>Portfolio</h2>
+    <section id="languages">
+      <h2>Languages</h2>
+      <div class="language-item">
+        <h3>English</h3>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%">80%</div>
+        </div>
+      </div>
+      <div class="language-item">
+        <h3>Uzbek</h3>
+        <div class="progress">
+          <div class="progress-bar" style="width: 100%">100%</div>
+        </div>
+      </div>
+      <div class="language-item">
+        <h3>Russian</h3>
+        <div class="progress">
+          <div class="progress-bar" style="width: 70%">70%</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>National University of Uzbekistan, Tashkent, Uzbekistan</p>
+          <p>Graduated with honors in May 2020</p>
+        </li>
+        <li>
+          <h3>Web Development Bootcamp</h3>
+          <p>Codecademy, Online</p>
+          <p>Completed in January 2021</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="hobby">
+      <h2>Hobbies</h2>
+      <div class="hobby-item">
+        <img src="https://www.w3schools.com/w3images/girl.jpg" alt="Hobby 1" />
+        <div class="overlay">
+          <h3>Cooking</h3>
+          <p>I love experimenting with new recipes in the kitchen.</p>
+        </div>
+      </div>
+      <div class="hobby-item">
+        <img
+          src="https://www.w3schools.com/w3images/kitchen.jpg"
+          alt="Hobby 2"
+        />
+        <div class="overlay">
+          <h3>Gardening</h3>
+          <p>
+            I enjoy tending to my small vegetable garden and watching things
+            grow.
+          </p>
+        </div>
+      </div>
+      <div class="hobby-item">
+        <img
+          src="https://www.w3schools.com/w3images/camera.jpg"
+          alt="Hobby 3"
+        />
+        <div class="overlay">
+          <h3>Photography</h3>
+          <p>
+            I like taking pictures of nature, landscapes, and interesting
+            objects.
+          </p>
+        </div>
+      </div>
+      <div class="hobby-text">
+        <p>
+          When I'm not working or coding, I enjoy spending my free time pursuing
+          my hobbies. Cooking is one of my favorite hobbies, and I love
+          experimenting with new recipes in the kitchen. Another hobby of mine
+          is gardening; I find it relaxing to tend to my small vegetable garden
+          and watch things grow. I also enjoy photography, and like taking
+          pictures of nature, landscapes, and interesting objects.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
       <ul>
         <li>
           <a href="#">
@@ -59,29 +227,169 @@
             <p>Project 3</p>
           </a>
         </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://www.zoho.com/sites/default/files/developer-bg-1.jpg"
+              alt="Project 4"
+            />
+            <p>Project 4</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://i2.wp.com/www.iheni.com/wp-content/uploads/2013/04/webdesign-projects3.jpg?resize=600%2C400"
+              alt="Project 5"
+            />
+            <p>Project 5</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="https://static.notion-static.com/7e3c3a4f-6c9d-4b36-bdb5-6f5a74e5b6d5/Screen_Shot_2020-10-27_at_6.19.29_PM.png"
+              alt="Project 6"
+            />
+            <p>Project 6</p>
+          </a>
+        </li>
       </ul>
+    </section>
+
+    <section id="interest">
+      <h2>Interests</h2>
+      <div class="interest-item">
+        <div class="interest-icon">
+          <i class="fas fa-palette"></i>
+        </div>
+        <div class="interest-text">
+          <h3>Art and Design</h3>
+          <p>
+            I enjoy creating digital art and experimenting with different design
+            techniques.
+          </p>
+        </div>
+      </div>
+      <div class="interest-item">
+        <div class="interest-icon">
+          <i class="fas fa-music"></i>
+        </div>
+        <div class="interest-text">
+          <h3>Music</h3>
+          <p>
+            I like listening to a wide variety of music genres and occasionally
+            playing the guitar.
+          </p>
+        </div>
+      </div>
+      <div class="interest-item">
+        <div class="interest-icon">
+          <i class="fas fa-bicycle"></i>
+        </div>
+        <div class="interest-text">
+          <h3>Cycling</h3>
+          <p>
+            I enjoy cycling in my free time and exploring new routes and trails.
+          </p>
+        </div>
+      </div>
+      <div class="interest-item">
+        <div class="interest-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <div class="interest-text">
+          <h3>Reading</h3>
+          <p>
+            I like reading books on a wide range of topics, including fiction,
+            non-fiction, and biographies.
+          </p>
+        </div>
+      </div>
+      <div class="interest-item">
+        <div class="interest-icon">
+          <i class="fas fa-globe"></i>
+        </div>
+        <div class="interest-text">
+          <h3>Travel</h3>
+          <p>
+            I enjoy exploring new cultures and cuisines by traveling to
+            different parts of the world.
+          </p>
+        </div>
+      </div>
+      <div class="interest-item">
+        <div class="interest-icon">
+          <i class="fas fa-film"></i>
+        </div>
+        <div class="interest-text">
+          <h3>Movies</h3>
+          <p>
+            I like watching movies and analyzing their themes, cinematography,
+            and sound design.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="contact">
       <h2>Contact Me</h2>
-      <form action="">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" />
+      <form action="" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" />
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
 
-        <button type="submit">Send</button>
+        <button type="submit" class="btn">Send</button>
       </form>
     </section>
 
     <footer>
-      <p>&copy; 2023 Botirjon Shokirov</p>
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <img src="img/logo.png" alt="Logo" />
+          <h3>Botirjon Shokirov</h3>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#hobby">Hobby</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2023 Botirjon Shokirov. All rights reserved.</p>
     </footer>
-
-    <script src="js/script.js"></script>
   </body>
 </html>
